@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff8f0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.herby {
+    height: 100%;
+    max-width: 700px;
+    margin: 0px auto;
+    background-color: #fff1dc;
+}
+
+.description, 
+.ingredients, 
+.steps {
+    margin: 32px 48px;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.nav-bar {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    background-color: #b23737;
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-bar-items {
+    margin: 10px;
+    padding: 8px 16px;
+    /* border: 1px solid rgba(255, 255, 255, 0.4); */
+    /* border-radius: 16px; */
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-bar-items:hover {
+    background-color: #8b2c2c;
+}
+
+.herby-img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+}
+
+.title {
+    text-align: center;
+    padding: 16px;
+}
+
+li {
+    margin: 8px 0;
+}
